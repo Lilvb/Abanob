@@ -1,0 +1,32 @@
+[0m14:15:51.919384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72993bc892d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72993c046ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72993bc89390>]}
+
+
+============================== 14:15:51.925912 | 353486e7-d41a-4c8d-ace0-0f6c72d0b102 ==============================
+[0m14:15:51.925912 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:15:51.926535 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init jaffle_shop_project', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:15:51.940562 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'PosixPath'.. Dictionary: {'dir': PosixPath('/home/vscode/.dbt')}
+[0m14:15:51.941064 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:15:51.946762 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.11/site-packages/dbt/include/starter_project
+[0m14:15:51.953145 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:15:51.953717 [info ] [MainThread]: Setting up your profile.
+[0m14:23:04.882049 [info ] [MainThread]: Profile jaffle_shop_project written to /home/vscode/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m14:23:04.884302 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 433.0079, "process_in_blocks": "3872", "process_kernel_time": 0.228314, "process_mem_max_rss": "114376", "process_out_blocks": "80", "process_user_time": 1.393404}
+[0m14:23:04.884814 [debug] [MainThread]: Command `dbt init` succeeded at 14:23:04.884690 after 433.01 seconds
+[0m14:23:04.885191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72993fdd5c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72993bd32650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72993fdd5910>]}
+[0m14:23:04.885595 [debug] [MainThread]: Flushing usage events
+[0m14:23:05.250593 [debug] [MainThread]: An error was encountered while trying to flush usage events

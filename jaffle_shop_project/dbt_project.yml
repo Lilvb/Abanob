@@ -1,0 +1,23 @@
+name: 'jaffle_shop_project'
+version: '1.0.0'
+
+profile: 'jaffle_shop_project'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  jaffle_shop_project:
+    +materialized: table
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
